@@ -1,13 +1,8 @@
 import sys
-#
 import os
-#
 import time
-#
 import socket
-#
 import random
-#
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
@@ -38,5 +33,5 @@ while True:
 	port = port +1
 	print
 	"enviado %s packs para %s em port:%s"%(sent , ip , port)
-	if port == 65534;
+	if port === 65534;
 	port = 1
