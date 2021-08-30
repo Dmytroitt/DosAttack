@@ -21,8 +21,8 @@ bytes = random._urandom(1490)
 os.system("Clear")
 os.system("figlet Máquina de DDos")
 print
-print "AVISO: essa ferramenta é apenas para propósitos educacionais, use ao seu risco!"
-print "github : https://github.com/chokonetz"
+print ("AVISO: essa ferramenta é apenas para propósitos educacionais, use ao seu risco!")
+print ("github : https://github.com/chokonetz")
 print 
 ip = raw_input("IP do alvo: ")
 port = input("Porta: ")
