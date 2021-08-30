@@ -1,4 +1,3 @@
-
 import sys
 #
 import os
@@ -41,5 +40,5 @@ while True:
 	port = port +1
 	print
 	"enviado %s packs para %s em port:%s"%(sent , ip , port)
-	if port == 65534
+	if port == 65534;
 	port = 1
