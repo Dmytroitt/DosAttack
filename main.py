@@ -19,7 +19,7 @@ attack_num = 0
 print('Começando ataque...')
 print('Caso o terminal pare o processo de DDos, tente executar o código novamente e alterar a port, ou verificar se o ip inserido é válido.')
 time.sleep(1)
-print('para mais dúvidas me chame no instagram: https://instagram.com/ChokoZNet
+print('para mais dúvidas me chame no instagram: https://instagram.com/ChokoZNet')
 time.sleep(2)
 os.system('clear')
 print('ataque iniciado...')
