@@ -17,7 +17,7 @@ os.system("clear")
 alvo = input('IP do alvo: ')
 seuip = input('Seu IP: ')
 port = input('Digite a porta do IP: ') 
-attack_num = 0
+numerodeataque = 0
 print('Começando ataque...')
 print('Caso o terminal pare o processo de DDos, tente executar o código novamente e alterar a port, ou verificar se o ip inserido é válido.')
 time.sleep(1)
