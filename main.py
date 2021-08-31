@@ -28,4 +28,4 @@ def attack():
         numerodeataque += 1
         print(numerodeataque)
         
-        s.close() 
+        s.close()
