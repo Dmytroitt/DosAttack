@@ -4,6 +4,8 @@ import threading
 import time
 import os
 #código e avisos
+os.system("clear")
+os.system("figlet choko DDos")
 print('AVISO LEGAL: ESTA FERRAMENTA SERVE PARA PROPÓSITOS EDUCACIONAIS USE AO SEU RISCO!!!')
 time.sleep(5)
 os.system("clear")
