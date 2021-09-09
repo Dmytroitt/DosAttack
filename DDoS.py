@@ -13,7 +13,6 @@ print
 print "Choko DDoS"
 ip = raw_input("IP do alvo =  ")
 port = input("Porta =  ")
-print "Você tem certeza que deseja atacar o alvo? se sim digite qualquer tecla(A FERRAMENTA É APENAS PARA PROPÓSITOS EDUCACIONAIS, USE AO SEU RISCO!!!"
 os.system("clear")
 os.system("Ataque iniciado!")
 print "carregando...20%"
