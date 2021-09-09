@@ -36,4 +36,4 @@ python2 main.py #vai abrir a file com o código programado
 
 caso esteja utilizando Debian, Arch, kali, etc... digite os mesmos comandos com o comando sudo antes :)
 
-- última atualização: 31 de agosto de 2021
+- última atualização: 9 de setembro de 2021
