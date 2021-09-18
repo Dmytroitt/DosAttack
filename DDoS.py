@@ -12,7 +12,7 @@ print "Choko DDoS"
 ip = raw_input("IP do alvo =  ")
 port = input("Porta =  ")
 os.system("clear")
-os.system("Ataque iniciado!")
+print("Ataque iniciado!")
 print "carregando...20%"
 time.sleep(1)
 print "carregando...30%"
