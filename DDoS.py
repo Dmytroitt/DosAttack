@@ -1,4 +1,4 @@
-print "Inicializado com sucesso!"
+print "Script inicializado."
 import os
 import sys
 import time
