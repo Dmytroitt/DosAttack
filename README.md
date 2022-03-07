@@ -1,4 +1,4 @@
-#  Ataque De DDos - python 2 🐍 
- - script de DDoS programado em python 2, mais detalhes no código
+#  Ataque De Dos - python 2 🐍 
+ - Dos attack python 2
 
 - última alteração 18 de setembro de 2021
